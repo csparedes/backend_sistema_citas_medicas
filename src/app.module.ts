@@ -5,6 +5,8 @@ import { DatabaseConfigurationPostgres } from './configurations/database.configu
 import { UsersModule } from './users/users.module';
 import { MedicsModule } from './medics/medics.module';
 import { PatientsModule } from './patients/patients.module';
+import { RecipesModule } from './recipes/recipes.module';
+import { AppointmentsModule } from './appointments/appointments.module';
 
 @Module({
   imports: [
@@ -16,6 +18,8 @@ import { PatientsModule } from './patients/patients.module';
     UsersModule,
     MedicsModule,
     PatientsModule,
+    RecipesModule,
+    AppointmentsModule,
   ],
   controllers: [],
   providers: [],
